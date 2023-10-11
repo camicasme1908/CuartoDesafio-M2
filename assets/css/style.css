@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    background-color: lightgreen;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.links li {
+    text-transform: uppercase;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#galeria {
+    display: grid;
+    gap: 20px;
+}
+
+.imagen {
+    border: black solid 1px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+
+.imagen:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    text-align: center;
+    background-color: lightgreen;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-contacto {
+    flex: 1;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    color: white;
+
+}
+
+@media (min-width: 576px) {
+    section {
+        grid-template-columns: repeat(3, 1fr);
+     
+    }
+}
+
+.boton {
+    
+    justify-content: center;
+    padding: 20px;
+}
